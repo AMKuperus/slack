@@ -19,6 +19,7 @@ type UserProfile struct {
 	LastName           string `json:"last_name"`
 	RealName           string `json:"real_name"`
 	RealNameNormalized string `json:"real_name_normalized"`
+	DisplayName	   string `json:"display_name"`
 	Email              string `json:"email"`
 	Skype              string `json:"skype"`
 	Phone              string `json:"phone"`
